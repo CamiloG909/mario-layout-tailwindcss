@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./styles/styles.css">
+	<link rel="shortcut icon" href="assets/icon/favicon.png" type="image/x-icon">
+	<title>Super Mario 3D World</title>
+</head>
+
+<body>
+	<header class="mx-auto select-none">
+		<nav class="bg-gray-800 flex justify-between items-center lg:justify-start">
+			<figure class="logo p-2 w-1/6 pl-2">
+				<img src="assets/img/logo.png" alt="Logo header" width="100">
+			</figure>
+			<section class="links lg:block hidden w-1/6 md:w-4/6">
+				<ul class="menu flex items-center justify-center gap-5">
+					<li><a href="#" class="link">Home</a></li>
+					<li><a href="#" class="link">Play together</a></li>
+					<li><a href="#" class="link">Explore</a></li>
+					<li><a href="#"
+							class="border-4 border-yellow-300 rounded-full p-2 text-white font-bold hover:text-black hover:bg-white hover:border-yellow-400 transition ease duration-300">Browser
+							Fury</a></li>
+					<li><a href="#"
+							class="text-white font-bold bg-red-500 hover:bg-red-600 transition ease duration-300 px-4 py-3 rounded-full">Buy
+							now</a></li>
+				</ul>
+			</section>
+			<section class="block lg:hidden w-1/6 lg:w-4/6">
+				<a href="#" class="link" id="menu-mobile">Menu</a>
+				<ul class="mobile-links hidden w-full absolute z-50 left-0 text-center bg-gray-800">
+					<li class=""><a href="#" class="link">Home</a></li>
+					<li class=""><a href="#" class="link">Play together</a></li>
+					<li class=""><a href="#" class="link">Explore</a></li>
+					<li class=""><a href="#"
+							class="my-4 inline-block border-4 border-yellow-300 rounded-full p-2 text-white font-bold hover:text-black hover:bg-white hover:border-yellow-400 transition ease duration-300">Browser
+							Fury</a></li>
+					<li class=""><a href="#"
+							class="my-4 inline-block text-white font-bold bg-red-500 hover:bg-red-600 transition ease duration-300 px-4 py-3 rounded-full">Buy
+							now</a></li>
+				</ul>
+			</section>
+		</nav>
+	</header>
+	<main>
+		<section class="first-section select-none">
+			<img src="assets/img/hero.jpg" alt="">
+		</section>
+		<section class="second-section">
+			<div class="bg-wave-pattern h-6 bg-repeat-x relative -top-2"></div>
+			<div class="bg-wave-pattern-dots text-center p-4 flex md:flex-row flex-col gap-3 justify-center">
+				<a href="#"
+					class="inline-block py-3 px-16 bg-black text-white font-bold border-transparent border-8 text-2xl rounded-3xl hover:border-gray-200 hover:text-black hover:bg-white transition duration-300 ease">Buy
+					Now</a>
+				<a href="#"
+					class="inline-block py-3 px-16 bg-red-500 text-white font-bold border-transparent border-8 text-2xl rounded-3xl hover:border-gray-200 hover:text-black hover:bg-white transition duration-300 ease">Watch
+					the trailer</a>
+			</div>
+			<div class="bg-wave-pattern h-6 bg-repeat-x relative top-2"></div>
+		</section>
+		<section class="third-section bg-pattern-characters-red py-28">
+			<div class="lg:container xl:w-4/5 mx-auto md:flex gap-5 md:w-full p-3">
+				<section class="left bg-character-mario bg-no-repeat bg-contain bg-top w-5/6 md:w-1/2 pt-52 mx-auto">
+					<div class="card text-center bg-white 2xl:w-5/6 mx-auto mt-72 rounded-2xl overflow-hidden xl:w-4/5">
+						<div class="cover bg-black">
+							<video src="./assets/videos/video01.mp4" autoplay loop muted></video>
+						</div>
+						<div class="content bg-wave-pattern bg-repeat-x relative -top-3">
+							<h3 class="font-black text-4xl py-10">Play Together</h3>
+							<p class="text-xl">
+								Work with (or against) your friends and family.
+							</p>
+
+							<a href="#"
+								class="xl:text-2xl my-4 inline-block py-2 px-16 bg-red-500 text-white font-black border-transparent border-8 rounded-3xl hover:border-gray-200 hover:bg-white hover:text-black transition-all group">Watch
+								the trailer <span class="arrow arrow-group"></span></a>
+						</div>
+						<div class="dost flex justify-between p-4">
+							<div class="dot"></div>
+							<div class="dot"></div>
+						</div>
+					</div>
+				</section>
+				<section class="right w-5/6 md:w-1/2 text-center mx-auto">
+					<h2 class="font-black text-white text-6xl py-8">Available now</h2>
+					<p class="font-bold text-white text-2xl mx-auto py-10 w-4/5">
+						Team up for a paws-itively adorable adventure!
+					</p>
+					<p class="text-white mx-auto w-4/5">
+						Bowser is up to his old tricks again and only Mario and his friends can save the day! Use power-ups like the
+						Super Bell, which grants catlike abilities like climbing and scratching, to overcome Bowser and his minions.
+					</p>
+					<div class="card text-center bg-white 2xl:w-5/6 mx-auto mt-16 rounded-2xl overflow-hidden xl:w-4/5">
+						<div class="cover bg-black">
+							<video src="./assets/videos/video02.mp4" autoplay loop muted></video>
+						</div>
+						<div class="content bg-wave-pattern bg-repeat-x relative -top-3">
+							<h3 class="font-black text-4xl py-10">Explore</h3>
+							<p class="text-xl">
+								Prowl through some popular places.
+							</p>
+
+							<a href="#"
+								class="xl:text-2xl my-4 inline-block py-2 px-16 bg-red-500 text-white font-black border-transparent border-8 rounded-3xl hover:border-gray-200 hover:bg-white hover:text-black transition-all group">Take
+								a look! <span class="arrow arrow-group"></span></a>
+						</div>
+						<div class="dost flex justify-between p-4 ">
+							<div class="dot"></div>
+							<div class="dot"></div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="coins text-center flex justify-center gap-9 pt-10 select-none">
+				<img src="./assets/img/coin.gif" alt="Coin" class="w-12 h-12 sm:w-20 sm:h-20">
+				<img src="./assets/img/coin.gif" alt="Coin" class="w-12 h-12 sm:w-20 sm:h-20">
+				<img src="./assets/img/coin.gif" alt="Coin" class="w-12 h-12 sm:w-20 sm:h-20">
+				<img src="./assets/img/coin.gif" alt="Coin" class="w-12 h-12 sm:w-20 sm:h-20 hidden sm:block">
+				<img src="./assets/img/coin.gif" alt="Coin" class="w-12 h-12 sm:w-20 sm:h-20 hidden sm:block">
+				<img src="./assets/img/coin.gif" alt="Coin" class="w-12 h-12 sm:w-20 sm:h-20 hidden sm:block">
+			</div>
+		</section>
+		<section class="bg-yellow-dots">
+			<div class="bg-wave-pink bg-repeat-x h-6 relative -top-4"></div>
+			<div class="xsm:w-full sm:container w-2/3 mx-auto md:flex justify-center items-center text-center py-6">
+				<div class="left xl:w-1/3 lg:w-1/2 p-5">
+					<h3 class="text-yellow-900 font-black  xsm:text-3xl sm:text-4xl">
+						Cat <br> Transformation<br> Center
+					</h3>
+
+					<p class="py-4 text-xl">
+						We’re not kitten—transform into a cat-tastic new you!
+					</p>
+					<p>
+						<a href="#"
+							class="xl:text-2xl my-4 inline-block py-2 px-16 bg-red-500 text-white font-black border-transparent border-8 rounded-3xl hover:border-gray-200 hover:bg-white hover:text-black transition duration-200 group">
+							Meow!
+							<span
+								class="w-4 h-4 inline-block border-yellow-300 border-solid border-t-[5px] border-r-[5px] transition-all transform rotate-45 group-hover:border-red-500 xl:group-hover:ml-4"></span>
+						</a>
+					</p>
+
+				</div>
+
+				<div class="right xl:w-1/3 lg:w-1/2">
+					<img src="./assets/img/activity_img3.png" class="md:w-full" alt="">
+				</div>
+			</div>
+		</section>
+
+		<section class="bg-black">
+			<div class="bg-wave-pattern bg-repeat-x h-6 relative -top-4"></div>
+
+			<div class="container mx-auto text-center py-10 w-2/3">
+				<div class="pb-5">
+					<a href="#"
+						class="xl:text-2xl my-4 inline-block py-2 px-16 bg-red-500 text-white font-black border-transparent border-8 rounded-3xl hover:border-gray-200 hover:bg-white hover:text-black transition duration-200 group">
+						Customer Support
+						<span
+							class="arrow arrow-group"></span>
+					</a>
+				</div>
+
+				<div class="text-white">
+					<p class="py-2">*Additional games, systems and/or accessories may be required for multiplayer mode</p>
+
+					<p class="py-2">** Nintendo Switch Online membership (sold separately) and Nintendo Account required for
+						online features. Not available in all countries. Internet access required for online features. A Nintendo
+						Account is required to receive and redeem My Nintendo points. Terms apply. nintendo.com/switch-online. </p>
+
+					<p class="py-2">Game, systems, some accessories and amiibo sold separately. Visit amiibo.com for details on
+						amiibo functionality. </p>
+
+					<p class="py-2">Nintendo Switch Lite plays all games that support handheld mode.</p>
+
+					<p class="py-2">©2013-2021 Nintendo. Super Mario and Nintendo Switch are trademarks of Nintendo.</p>
+				</div>
+			</div>
+		</section>
+	</main>
+	<script src="js/app.js"></script>
+</body>
+
+</html>
